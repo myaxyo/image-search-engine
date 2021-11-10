@@ -158,4 +158,16 @@ section .container .load-more {
   text-transform: uppercase;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+  section {
+    background-color: red;
+  }
+  section .container .results .item h3 {
+    bottom: -5px;
+  }
+  section .container .results .item:hover h3 {
+    bottom: -70px;
+  }
+}
 /*# sourceMappingURL=main.css.map */

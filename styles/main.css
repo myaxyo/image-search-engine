@@ -160,6 +160,9 @@ section .container .load-more {
 }
 
 @media only screen and (max-width: 600px) {
+  section .container .header input {
+    width: 250px;
+  }
   section .container .results .item h3 {
     bottom: -5px;
   }

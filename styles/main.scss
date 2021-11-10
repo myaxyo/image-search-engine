@@ -135,6 +135,11 @@ section{
     section {
 
         .container {
+            .header {
+                input {
+                    width: 250px;
+                }
+            }
             .results {
                 .item {
                     h3 {

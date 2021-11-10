@@ -160,9 +160,6 @@ section .container .load-more {
 }
 
 @media only screen and (max-width: 600px) {
-  section {
-    background-color: red;
-  }
   section .container .results .item h3 {
     bottom: -5px;
   }
